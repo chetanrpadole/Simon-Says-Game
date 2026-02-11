@@ -21,7 +21,7 @@ function gameFlash(btn) {
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
-    }, 250);
+    }, 350);
 }
 
 function userFlash(btn) {
